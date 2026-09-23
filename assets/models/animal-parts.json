@@ -1,0 +1,374 @@
+{
+  "cell": "animal",
+  "sourceSha256": "42ca8478bddc7429e5ad96ba611de9d6b2a34f3cfd92acd6a2118bb4381fa600",
+  "vertices": 1000277,
+  "faces": 1837685,
+  "contextFaces": 487784,
+  "labelSha256": "4fc8c96c117c185ad907947807c6ee74d335b5fe0956f5e035b99bcd10c1c7e9",
+  "parts": [
+    {
+      "code": 1,
+      "key": "animal-mitochondrion-1",
+      "organelle": "mitochondrion",
+      "name": "线粒体",
+      "method": "component",
+      "faces": 30978,
+      "bounds": [
+        [
+          -0.1667308211326599,
+          0.2417810559272766,
+          0.034175753593444824
+        ],
+        [
+          -0.047863513231277466,
+          0.35951173305511475,
+          0.1992260217666626
+        ]
+      ],
+      "note": "完整连通表面提取；保留原始几何与纹理。闭合不等于生物学准确。",
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "vertices": 16677
+    },
+    {
+      "code": 2,
+      "key": "animal-mitochondrion-2",
+      "organelle": "mitochondrion",
+      "name": "线粒体",
+      "method": "component",
+      "faces": 34348,
+      "bounds": [
+        [
+          0.04127201437950134,
+          -0.07970505952835083,
+          0.2974545359611511
+        ],
+        [
+          0.21074914932250977,
+          0.06620204448699951,
+          0.39909297227859497
+        ]
+      ],
+      "note": "完整连通表面提取；保留原始几何与纹理。闭合不等于生物学准确。",
+      "boundaryEdges": 6,
+      "nonmanifoldEdges": 0,
+      "vertices": 18551
+    },
+    {
+      "code": 3,
+      "key": "animal-mitochondrion-3",
+      "organelle": "mitochondrion",
+      "name": "线粒体",
+      "method": "component",
+      "faces": 31806,
+      "bounds": [
+        [
+          0.1776074767112732,
+          -0.17225047945976257,
+          -0.39708468317985535
+        ],
+        [
+          0.30837947130203247,
+          -0.06151902675628662,
+          -0.25536519289016724
+        ]
+      ],
+      "note": "完整连通表面提取；保留原始几何与纹理。闭合不等于生物学准确。",
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "vertices": 17223
+    },
+    {
+      "code": 4,
+      "key": "animal-mitochondrion-4",
+      "organelle": "mitochondrion",
+      "name": "线粒体",
+      "method": "component",
+      "faces": 28464,
+      "bounds": [
+        [
+          0.3095759153366089,
+          -0.25887346267700195,
+          0.05469483137130737
+        ],
+        [
+          0.4074455499649048,
+          -0.155859112739563,
+          0.21807008981704712
+        ]
+      ],
+      "note": "完整连通表面提取；保留原始几何与纹理。闭合不等于生物学准确。",
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "vertices": 15294
+    },
+    {
+      "code": 5,
+      "key": "animal-mitochondrion-5",
+      "organelle": "mitochondrion",
+      "name": "线粒体",
+      "method": "component",
+      "faces": 26295,
+      "bounds": [
+        [
+          -0.05743512511253357,
+          0.06955206394195557,
+          -0.43088439106941223
+        ],
+        [
+          0.06914931535720825,
+          0.19027388095855713,
+          -0.31686270236968994
+        ]
+      ],
+      "note": "完整连通表面提取；保留原始几何与纹理。闭合不等于生物学准确。",
+      "boundaryEdges": 19,
+      "nonmanifoldEdges": 2,
+      "vertices": 14280
+    },
+    {
+      "code": 6,
+      "key": "animal-golgi-1",
+      "organelle": "golgi",
+      "name": "高尔基体",
+      "method": "component",
+      "faces": 116606,
+      "bounds": [
+        [
+          -0.20435918867588043,
+          0.18076211214065552,
+          -0.31883683800697327
+        ],
+        [
+          0.0287092924118042,
+          0.39773833751678467,
+          -0.029535233974456787
+        ]
+      ],
+      "note": "完整连通表面提取；保留原始几何与纹理。闭合不等于生物学准确。",
+      "boundaryEdges": 4,
+      "nonmanifoldEdges": 2,
+      "vertices": 64014
+    },
+    {
+      "code": 7,
+      "key": "animal-lysosome-1",
+      "organelle": "lysosome",
+      "name": "溶酶体",
+      "method": "component",
+      "faces": 18614,
+      "bounds": [
+        [
+          -0.11588171124458313,
+          0.16819941997528076,
+          0.23733294010162354
+        ],
+        [
+          0.009386599063873291,
+          0.26529133319854736,
+          0.3404669165611267
+        ]
+      ],
+      "note": "独立绿色囊状表面；溶酶体为教学指定，不能仅凭形状判断功能。",
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "vertices": 10136
+    },
+    {
+      "code": 8,
+      "key": "animal-centrosome-1",
+      "organelle": "centrosome",
+      "name": "中心体",
+      "method": "component",
+      "faces": 14350,
+      "bounds": [
+        [
+          0.2939622402191162,
+          -0.2370382398366928,
+          -0.16515284776687622
+        ],
+        [
+          0.3731672167778015,
+          -0.13647660613059998,
+          -0.06423228979110718
+        ]
+      ],
+      "note": "完整连通表面提取；保留原始几何与纹理。闭合不等于生物学准确。",
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "vertices": 7656
+    },
+    {
+      "code": 9,
+      "key": "animal-nucleus-1",
+      "organelle": "nucleus",
+      "name": "细胞核",
+      "method": "region",
+      "faces": 145529,
+      "bounds": [
+        [
+          -0.16116735339164734,
+          -0.11440211534500122,
+          -0.18555229902267456
+        ],
+        [
+          0.2746993899345398,
+          0.26325732469558716,
+          0.19725185632705688
+        ]
+      ],
+      "note": "依据外形和位置划分的原表面；切口未封闭，不能把它理解为完整细胞器。",
+      "boundaryEdges": 3802,
+      "nonmanifoldEdges": 3,
+      "vertices": 82150
+    },
+    {
+      "code": 10,
+      "key": "animal-er-1",
+      "organelle": "er",
+      "name": "内质网",
+      "method": "region",
+      "faces": 427637,
+      "bounds": [
+        [
+          -0.15997087955474854,
+          -0.22991935908794403,
+          -0.3056758940219879
+        ],
+        [
+          0.35139185190200806,
+          0.26194125413894653,
+          0.2891990542411804
+        ]
+      ],
+      "note": "依据外形和位置划分的原表面；切口未封闭，不能把它理解为完整细胞器。",
+      "boundaryEdges": 6134,
+      "nonmanifoldEdges": 7,
+      "vertices": 238798
+    },
+    {
+      "code": 11,
+      "key": "animal-vesicle-1",
+      "organelle": "vesicle",
+      "name": "运输囊泡",
+      "method": "region",
+      "faces": 8422,
+      "bounds": [
+        [
+          0.004182040691375732,
+          -0.03693196177482605,
+          -0.43303799629211426
+        ],
+        [
+          0.11425542831420898,
+          0.038205087184906006,
+          -0.3546106815338135
+        ]
+      ],
+      "note": "按囊状外形分离，运输功能为教学指定；不是仅凭纹理验证的细胞器身份。",
+      "boundaryEdges": 190,
+      "nonmanifoldEdges": 0,
+      "vertices": 4598
+    },
+    {
+      "code": 12,
+      "key": "animal-vesicle-2",
+      "organelle": "vesicle",
+      "name": "运输囊泡",
+      "method": "region",
+      "faces": 4077,
+      "bounds": [
+        [
+          0.06268846988677979,
+          -0.07539784908294678,
+          -0.3951703608036041
+        ],
+        [
+          0.12729674577713013,
+          -0.028796106576919556,
+          -0.34497928619384766
+        ]
+      ],
+      "note": "按囊状外形分离，运输功能为教学指定；不是仅凭纹理验证的细胞器身份。",
+      "boundaryEdges": 141,
+      "nonmanifoldEdges": 0,
+      "vertices": 2369
+    },
+    {
+      "code": 13,
+      "key": "animal-vesicle-3",
+      "organelle": "vesicle",
+      "name": "运输囊泡",
+      "method": "region",
+      "faces": 1274,
+      "bounds": [
+        [
+          0.30712318420410156,
+          -0.30936363339424133,
+          -0.1020401120185852
+        ],
+        [
+          0.4408264756202698,
+          -0.25689929723739624,
+          -0.05095168948173523
+        ]
+      ],
+      "note": "按囊状外形分离，运输功能为教学指定；不是仅凭纹理验证的细胞器身份。",
+      "boundaryEdges": 168,
+      "nonmanifoldEdges": 0,
+      "vertices": 755
+    },
+    {
+      "code": 14,
+      "key": "animal-vesicle-4",
+      "organelle": "vesicle",
+      "name": "运输囊泡",
+      "method": "region",
+      "faces": 6681,
+      "bounds": [
+        [
+          0.11192238330841064,
+          -0.1552608609199524,
+          0.2241121530532837
+        ],
+        [
+          0.24514710903167725,
+          -0.0672619640827179,
+          0.28967761993408203
+        ]
+      ],
+      "note": "按囊状外形分离，运输功能为教学指定；不是仅凭纹理验证的细胞器身份。",
+      "boundaryEdges": 423,
+      "nonmanifoldEdges": 0,
+      "vertices": 3804
+    },
+    {
+      "code": 15,
+      "key": "animal-membrane-1",
+      "organelle": "membrane",
+      "name": "细胞膜",
+      "method": "region",
+      "faces": 454820,
+      "bounds": [
+        [
+          -0.3843650817871094,
+          -0.439178466796875,
+          -0.48992919921875
+        ],
+        [
+          0.42850303649902344,
+          0.43949443101882935,
+          0.490142822265625
+        ]
+      ],
+      "note": "原模型边缘表面片段，可能包含附着结构；局部放大使用另建的磷脂双分子层示意。",
+      "boundaryEdges": 3390,
+      "nonmanifoldEdges": 1,
+      "vertices": 243588
+    }
+  ],
+  "supplemented": [
+    "ribosome"
+  ],
+  "policy": "原始三角面互斥分区，0 为背景与未确定结构，不把背景命名为细胞质基质模型。区域切分不等于闭合生物学重建。"
+}

@@ -1,0 +1,24 @@
+{
+  "source_sha256": "42ca8478bddc7429e5ad96ba611de9d6b2a34f3cfd92acd6a2118bb4381fa600",
+  "component_id": 160903,
+  "source_faces": 1837685,
+  "selected_faces": 30978,
+  "vertices_with_uv_seams": 16677,
+  "welded_vertices": 15487,
+  "boundary_edges_after_seam_weld": 0,
+  "nonmanifold_edges_after_seam_weld": 0,
+  "degenerate_faces_after_seam_weld": 0,
+  "bounds": [
+    [
+      -0.1667308211326599,
+      0.2417810559272766,
+      0.034175753593444824
+    ],
+    [
+      -0.047863513231277466,
+      0.35951173305511475,
+      0.1992260217666626
+    ]
+  ],
+  "method": "Disconnected surface component, positional seam welding tolerance 1e-6; original positions, normals and UVs preserved. No synthetic cap or hidden geometry added."
+}
