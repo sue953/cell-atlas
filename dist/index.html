@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f5f5f7" />
+  <meta name="description" content="面向高中生物课堂的三维细胞结构互动图谱。旋转观察动物和植物细胞，探索细胞器内部结构与功能。" />
+  <title>细胞之间 · 3D 细胞结构图谱</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cellipse cx='32' cy='32' rx='27' ry='25' fill='%23d6ebf3' stroke='%23225270' stroke-width='4'/%3E%3Ccircle cx='28' cy='30' r='12' fill='%23896acc'/%3E%3Ccircle cx='26' cy='28' r='4' fill='%234e367c'/%3E%3Cellipse cx='47' cy='40' rx='6' ry='3' fill='%23f58c52' transform='rotate(-40 47 40)'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./style.css?v=20" />
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/"}}</script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="细胞之间首页"><span class="brand-mark">◉</span><span>细胞之间<small>CELL ATLAS</small></span></a>
+    <span class="course">高中生物学 <span>/</span> 分子与细胞</span>
+    <button id="fullscreen" class="plain-button" title="切换全屏">⛶ <span>课堂全屏</span></button>
+  </header>
+  <main>
+    <section class="intro"><h1>走进细胞的内部</h1><div class="view-switch" aria-label="选择细胞"><button data-cell="both" class="active" aria-pressed="true">双细胞对照</button><button data-cell="animal" aria-pressed="false">动物细胞</button><button data-cell="plant" aria-pressed="false">植物细胞</button></div></section>
+    <div class="workspace">
+      <section class="stage-panel" aria-label="三维细胞观察区">
+        <div class="stage-top"><span id="scene-title">细胞结构总览</span><span class="badge">3D结构</span><div class="stage-actions"><button id="model-source">教学示意</button><button id="cutaway" class="active" aria-pressed="true" hidden>剖切视图</button><button id="reset" aria-label="复位细胞视角">↺ 复位</button></div></div>
+        <div id="canvas-host" tabindex="0" role="region" aria-label="细胞三维结构"><div id="loading">正在加载细胞模型…</div></div>
+        <div class="cell-labels" id="cell-labels"><span>动物细胞</span><span>植物细胞</span></div>
+        <div id="hover-label" hidden></div>
+        <section id="extraction-panel" class="extraction-panel" aria-label="拆分控制"><p id="extraction-count" class="sr-only">正在读取结构…</p><div class="disassembly-controls"><button id="explode-all" aria-pressed="false">只拆开细胞器</button><label class="amount-control">拆开程度<input id="explode-amount" type="range" min="0" max="100" value="0" aria-label="拆开程度"></label><label class="context-control"><input id="show-context" type="checkbox" checked>显示背景</label></div></section>
+      </section>
+      <aside class="explorer"><div class="aside-heading"><h2>细胞结构</h2><span id="structure-count">12</span></div><div class="specific-controls" role="group" aria-label="本图特有细胞器标注"><button data-specific="plant" aria-pressed="false" aria-label="标注植物特有细胞器" title="本图成熟叶肉细胞：叶绿体、中央液泡">植物特有</button><button data-specific="animal" aria-pressed="false" aria-label="标注动物特有细胞器" title="与高等植物叶肉细胞相比：中心体；某些低等植物也有中心体">动物特有</button></div><div id="organelle-list"></div><div class="cytosol-note"><strong>细胞质基质</strong><p>细胞器之间的连续区域，是多种化学反应的场所。</p></div></aside>
+    </div>
+  </main>
+  <dialog id="detail-dialog" aria-labelledby="detail-title">
+    <div class="detail-header"><div class="breadcrumb">细胞结构 <span>/</span> <span id="detail-crumb"></span></div><button id="close-detail" aria-label="关闭详情">✕</button></div>
+    <div class="detail-source-toolbar" aria-label="结构视图"><button id="view-provided" aria-pressed="false" hidden>3D结构</button><button id="view-teaching" aria-pressed="false">教学补全</button><button id="download-part">下载模型</button></div><div class="detail-layout"><section class="detail-stage"><div class="detail-model-heading"><span id="detail-model-label">结构放大</span></div><div id="detail-canvas"></div><div id="detail-loading" role="status" hidden></div><div class="detail-controls"><button id="detail-cut" class="active" aria-pressed="true">显示剖切</button><button id="detail-reset" aria-label="复位细胞器视角">↺</button></div></section><section class="detail-info"><span class="eyebrow" id="detail-en"></span><h2 id="detail-title"></h2><div id="detail-tags"></div><p id="detail-summary"></p><h3>内部结构</h3><div id="part-list"></div><h3>功能</h3><p id="detail-function"></p><div class="teaching-note"><strong>课堂要点</strong><p id="detail-note"></p></div><details class="reference"><summary>结构示意图</summary><img id="reference-image" alt="" loading="lazy"/></details></section></div>
+  </dialog>
+  <div id="status" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.js?v=21"></script>
+</body>
+</html>

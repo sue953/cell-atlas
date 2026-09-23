@@ -1,0 +1,86 @@
+[
+  {
+    "id": "nucleus",
+    "sourceUnchanged": true,
+    "webHashVerified": true,
+    "decodedFaces": 1495782,
+    "triangleCountPreserved": true,
+    "finiteAttributes": true,
+    "glTFErrors": 0,
+    "warnings": [
+      "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+    ]
+  },
+  {
+    "id": "mitochondrion",
+    "sourceUnchanged": true,
+    "webHashVerified": true,
+    "decodedFaces": 1500000,
+    "triangleCountPreserved": true,
+    "finiteAttributes": true,
+    "glTFErrors": 0,
+    "warnings": [
+      "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+    ]
+  },
+  {
+    "id": "chloroplast",
+    "sourceUnchanged": true,
+    "webHashVerified": true,
+    "decodedFaces": 1499072,
+    "triangleCountPreserved": true,
+    "finiteAttributes": true,
+    "glTFErrors": 0,
+    "warnings": [
+      "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+    ]
+  },
+  {
+    "id": "er",
+    "sourceUnchanged": true,
+    "webHashVerified": true,
+    "decodedFaces": 1500000,
+    "triangleCountPreserved": true,
+    "finiteAttributes": true,
+    "glTFErrors": 0,
+    "warnings": [
+      "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+    ]
+  },
+  {
+    "id": "membrane",
+    "sourceUnchanged": true,
+    "webHashVerified": true,
+    "decodedFaces": 1500032,
+    "triangleCountPreserved": true,
+    "finiteAttributes": true,
+    "glTFErrors": 0,
+    "warnings": [
+      "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+    ]
+  },
+  {
+    "id": "lysosome",
+    "sourceUnchanged": true,
+    "webHashVerified": true,
+    "decodedFaces": 1500000,
+    "triangleCountPreserved": true,
+    "finiteAttributes": true,
+    "glTFErrors": 0,
+    "warnings": [
+      "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+    ]
+  },
+  {
+    "id": "wall",
+    "sourceUnchanged": true,
+    "webHashVerified": true,
+    "decodedFaces": 1500000,
+    "triangleCountPreserved": true,
+    "finiteAttributes": true,
+    "glTFErrors": 0,
+    "warnings": [
+      "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE"
+    ]
+  }
+]
