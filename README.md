@@ -1,13 +1,15 @@
 # cell-atlas
 细胞之间：面向高中生物课堂的三维细胞交互页面
 
-本仓库保持私有；计划公开访问的是网页，不是仓库。目前尚未上线：当前 GitHub 账户套餐不支持此私有仓库的 GitHub Pages，托管方式待确认。
+本仓库及网页按用户最新要求公开，用于课堂教学与科普展示。
+
+网站地址：https://sue953.github.io/cell-atlas/
 
 ## 运行
 
 Mac 双击 `启动.command`，或运行 `python3 launch.py`。也可运行 `python3 -m http.server 5173 --directory dist` 后打开 http://localhost:5173/ 。
 
-网页源码和模型均在 `dist/`，不需要编译。以后部署时以 `dist/` 为网站根目录，不要发布整个仓库。
+网页源码和模型均在 `dist/`，不需要编译。GitHub Pages 使用 `gh-pages` 分支的根目录，该分支由 `dist/` 生成；不要将整个主分支作为网站根目录。
 
 ## 当前功能
 
